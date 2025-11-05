@@ -56,6 +56,7 @@ class _ChatScreenState extends State<ChatScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.blue, // 设置整个聊天界面的背景颜色为蓝色
       appBar: AppBar(
         title: const Text('Chat App'),
       ),
